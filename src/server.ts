@@ -11,7 +11,7 @@ const port = config.port;
 //parser json 
 app.use(express.json());
 // parser form data 
-app.use(express.urlencoded())
+// app.use(express.urlencoded())
 
 // initializing db 
 initDB()
